@@ -1,15 +1,22 @@
 .git/
+# Clacky configuration
+.1024*
+!.1024
 .1024.nix
 .1024feature*
 .1024feature-file
 .nfs*
+.breakpoints
+
+# IDE and editor files
 *.dll
 *.swp
 .paas-unit-*
 core.*
-.breakpoints
 .idea/
 .vscode/
+
+# Package manager directories
 node_modules/
 .pnpm-store/
 dist/
@@ -17,6 +24,8 @@ env/
 venv/
 vendor/
 cython_debug/
+
+# Logs and temporary files
 *.log
 *.tmp
 *.bak
@@ -34,12 +43,16 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 *.tsbuildinfo
+
+# Python files
 **/__pycache__/
 *.py[cod]
 *.pyo
 *.pyd
 .Python
 *.env
+
+# Binary and database files
 *.exe
 *.out
 *.test
