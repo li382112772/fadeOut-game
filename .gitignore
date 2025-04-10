@@ -15,6 +15,7 @@
 core.*
 .idea/
 .vscode/
+.DS_Store
 
 # Package manager directories
 node_modules/
@@ -43,6 +44,9 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 *.tsbuildinfo
+
+# Browser-sync files
+.browsersync*
 
 # Python files
 **/__pycache__/
